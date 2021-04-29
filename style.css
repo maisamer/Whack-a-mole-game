@@ -1,0 +1,36 @@
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("images/mole.jpg");
+	background-size: cover;
+}
+#button{
+	margin-bottom: 10px;
+	padding:10px 20px 10px 20px;
+}
+button{
+	color: white;
+	background: violet;
+}
+button:hover {
+	border: 1px solid gray;
+	background-color: #00aacc;
+	color: #ffffff;
+}
+button:disabled{
+	border: 1px solid #0099cc;
+	background-color: gray;
+	color: white;
+}
+  
